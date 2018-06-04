@@ -47,7 +47,7 @@ TESTS = [
         False, 'testchecksh',
     ),
     Test(
-        'testify tests',
+        'python -m unittest tests.test_run_command',
         'Misc  - Tests',
         False, 'testtests',
     ),
