@@ -32,9 +32,9 @@ TESTS = [
         False, 'testpyflakes',
     ),
     Test(
-        "%s | xargs grep 'import\sipdb'" % PY_FILES,
-        'Py    - ipdb',
-        True, 'testipdby',
+        "%s | xargs grep 'import\spdb'" % PY_FILES,
+        'Py    - pdb',
+        True, 'testpdb',
     ),
     Test(
         "%s | xargs grep -H -n -P '\t'" % ALL_FILES,
